@@ -47,3 +47,36 @@ Now `python3 functional_tests.py` works.
 
 Let's work one level higher than recommended so we can keep our notes in the
 repo.
+
+    TddPython$ git init
+    Initialized empty Git repository in /Users/gnperdue/Dropbox/Programming/Programming/Python/TestDriven/TddPython/.git/
+    TddPython$ echo TddPySite/superlists/db.sqlite3 >> .gitignore
+    TddPython$ git add .
+    TddPython$ git status
+    On branch master
+    
+    Initial commit
+    
+    Changes to be committed:
+      (use "git rm --cached <file>..." to unstage)
+    
+    new file:   .gitignore
+    new file:   TddPySite/superlists/functional_tests.py
+    new file:   TddPySite/superlists/manage.py
+    new file:   TddPySite/superlists/superlists/__init__.py
+    new file:   TddPySite/superlists/superlists/settings.py
+    new file:   TddPySite/superlists/superlists/urls.py
+    new file:   TddPySite/superlists/superlists/wsgi.py
+    new file:   tddpyCha01/tddpy_notes_cha01.markdown
+    TddPython$ git commit -m "start tracking notes in Test Driven Development with Python by Harry Percival"
+    [master (root-commit) 207e9c0] start tracking notes in Test Driven Development with Python by Harry Percival
+     8 files changed, 173 insertions(+)
+     create mode 100644 .gitignore
+     create mode 100644 TddPySite/superlists/functional_tests.py
+     create mode 100755 TddPySite/superlists/manage.py
+     create mode 100644 TddPySite/superlists/superlists/__init__.py
+     create mode 100644 TddPySite/superlists/superlists/settings.py
+     create mode 100644 TddPySite/superlists/superlists/urls.py
+     create mode 100644 TddPySite/superlists/superlists/wsgi.py
+     create mode 100644 tddpyCha01/tddpy_notes_cha01.markdown
+
